@@ -19,7 +19,7 @@ console.log(props.isValid)
 
 
   return (
-    <button style={{background: !props.isValid ? 'green' : 'ac0e77'}}  type={props.type} className="button">
+    <button style={{background: !props.isValid ? 'green' : '#ac0e77'}}  type={props.type} className="button">
       {props.children}
     </button>
   );
